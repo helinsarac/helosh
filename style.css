@@ -1,0 +1,17 @@
+.first h1{
+	color: #ffff;
+	font-family "Eras ITC", "Eras Light ITC", sans-serif;  
+	font-size: 22px; 
+}
+
+.first p{
+	color: #ffff;
+	font-family "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 14px; 
+
+}
+
+
+body {
+	background-color: #0000;
+}
