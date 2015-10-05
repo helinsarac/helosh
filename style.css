@@ -2,12 +2,14 @@
 	color: #ffffff;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;  
 	font-size: 22px; 
+	position: relative;
 }
 
 .first p{
 	color: #ffffff;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
 	font-size: 14px; 
+	position: relative;
 
 }
 
