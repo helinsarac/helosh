@@ -1,12 +1,12 @@
 .first h1{
-	color: #ffffff;
+	color: #000000;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;  
 	font-size: 22px; 
 	text-align: center;
 }
 
 .first p{
-	color: #ffffff;
+	color: #000000;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
 	font-size: 12px; 
 	text-align: center;
@@ -15,6 +15,6 @@
 
 
 body {
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
