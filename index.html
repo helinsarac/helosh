@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html>
 <head>
-<link rel="stylesheet" href="style.css" type="text/css">
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+	<!-- scroll -->
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+	<script src="vendors/jquery.easings.min.js"></script>
+
+
+	<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#fullpage').fullpage();
+    sectionColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke']
+    css3: true
+});
+	</script>
+
+	<style type"text/css">
+		.section {
+			font-size: 6em;
+			text-align: center;
+		}
+
+		.text {
+			font-size: 20px;
+			text-align: center;
+		}
+	</style>
+
+	<!-- charts -->
+	<link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
 <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
 </head>
 <body>
-<div class="first">
-<h1>Helin Sarac's github page!</h1>
-<img src="http://netanimations.net/space_animation_05.gif">
-<p>"Having a nationality is something so natural that people rarely stop to think about what life would be like without it. But at least 10 million people worldwide have no nationality. Moreover, most of these 10 million people are stateless by no fault of their own. Statelessness, not having a nationality, occurs because of discrimination against certain groups, redrawing of borders, and gaps in nationality laws."</p>
-<h3>UNHCR</h3>
-<div class="ct-chart ct-perfect-fourth"></div>
-</div>
+	<div id="fullpage">
+    <div class="section">The lack a of a nationality</div>
+    <div class="section"><div class="text">Having a nationality is something so natural that people rarely stop to think about what life would be like without it. But at least 10 million people worldwide have no nationality. Moreover, most of these 10 million people are stateless by no fault of their own. Statelessness, not having a nationality, occurs because of discrimination against certain groups, redrawing of borders, and gaps in nationality laws." <br>UNHCR
+    </div></div>
+    <div class="section">How many stateless persons are there in the world?</div>
+    <div class="section"><div class="ct-chart ct-major-eleventh"></div></div>
 </div>
 <script src="myscripts.js"></script>
-</body>
-</html>
+	</body>
+	</html>
