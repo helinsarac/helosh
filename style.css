@@ -1,15 +1,24 @@
 .first h1{
 	color: #000000;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif;  
+	font-family: Arial, Helvetica, sans-serif;  
 	font-size: 22px; 
 	text-align: center;
 }
 
 .first p{
 	color: #000000;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
-	font-size: 12px; 
-	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	text-align: left;
+  font-style: italic;
+
+}
+
+.first h3{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; 
+  text-align: left;
 
 }
 
@@ -35,4 +44,10 @@ body {
   stroke-width: 20px;
   /* Make your points appear as squares */
   stroke-linecap: square;
+}
+
+.ct-chart 
+{
+  position: relative;
+  left: 50px;
 }
