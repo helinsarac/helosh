@@ -1,70 +1,59 @@
-.first{
-  position: absolute;
+*{
+  font-variant: small-caps;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ }
+
+.section {
+      font-size: 6em;
+      text-align: center;
+    }
+
+    .text {
+      font-size: 35px;
+      text-align: center;
+      margin-top: 15px;
+      margin-right: 200px;
+      margin-left: 200px;
+      text-align: justify;
+    }
+
+
+    .t3 {
+     font-size: 65px;
+    text-align: center; 
+    margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      text-align: center;
+      margin-right: 200px;
+      margin-left: 200px;
+      text-align: justify;
+      font-style: italic;
+    }
+
+
+    .author {
+      font-size: 35px;
+      text-align: center;
+      margin-right: 200px;
+      margin-left: 200px;
+      text-align: justify;
+      
+    }
+
+
+
+/*graph*/
+
+
+.ct-chart {
+  margin-right: 200px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 500px;
 }
 
 
-.first h1{
-	color: #004182;
-	font-family: Arial, Helvetica, sans-serif;  
-	font-size: 22px; 
-	text-align: center;
-}
 
-.first p{
-	color: #FF4B68;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px; 
-	text-align: left;
-  font-style: italic;
-
-}
-
-.first h3{
-  color: #118DF0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px; 
-  text-align: left;
-
-}
-
-
-.first h2{
-  color: #FF4B68;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px; 
-  text-align: left;
-
-}
-
-body {
-  margin: 0px;
-	background-color: #FBFFA3;
-  position: scroll; 
-}
-
-/* Use this selector to override the line style on a given series */
-.ct-series-a .ct-line {
-  /* Set the colour of this series line */
-  stroke: red;
-  /* Control the thikness of your lines */
-  stroke-width: 5px;
-  /* Create a dashed line with a pattern */
-  stroke-dasharray: 10px 20px;
-}
-
-/* This selector overrides the points style on line charts. Points on line charts are actually just very short strokes. This allows you to customize even the point size in CSS */
-.ct-series-a .ct-point {
-  /* Colour of your points */
-  stroke: red;
-  /* Size of your points */
-  stroke-width: 20px;
-  /* Make your points appear as squares */
-  stroke-linecap: square;
-}
-
-.ct-
-.ct-chart 
-{
-  position: relative;
-  left: 50px;
-}
