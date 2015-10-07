@@ -1,9 +1,9 @@
 var data = {
   // A labels array that can contain any sort of values
-  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+  labels: ['2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014'],
   // Our series array that contains series objects or in this case series data arrays
   series: [
-    [5, 2, 4, 2, 0]
+    [1455900, 2383700, 5806000, 2937300, 6572200, 6559573, 3463070, 3477101, 3335777, 3469250, 3492263]
   ]
 };
 
