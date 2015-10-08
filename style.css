@@ -143,12 +143,12 @@
 }
 
 
-.ct-label.ct-vertical.ct-start {
+.ct-bar.ct-label.ct-vertical.ct-start {
   width: 100px; 
   height: 50px;
 }
 
-.ct-label.ct-horizontal.ct-end {
+.ct-bar.ct-label.ct-horizontal.ct-end {
   width: 100px; 
   height: 50px;
 }
