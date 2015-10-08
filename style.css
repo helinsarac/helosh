@@ -13,6 +13,12 @@
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
+
+.contact {
+  font-size: 20px;
+ margin-top:500px; 
+}
+
     .text {
       font-size: 35px;
       text-align: center;
@@ -55,15 +61,6 @@
 
 /*charts*/
 
-.ct-label .ct-vertical .ct-start {
-  height: 26px;
-  width: 50px;
-  }
-
-.ct-label .ct-horizontal .ct-end {
-  width: 70px; 
-  height: 20px
-}
 
 .ct-label {
    color: rgb(0,0,0);
@@ -82,6 +79,19 @@
     stroke-width: 0px;
     stroke-dasharray: 0px;
 }
+
+
+.ct-chart.ct-label.ct-vertical.ct-start {
+  width: 100px; 
+  height: 50px;
+}
+
+.ct-chart.ct-label.ct-horizontal.ct-end {
+  width: 100px; 
+  height: 50px;
+  background-color: red;
+}
+
 
 /*pie-chart colors*/
 .ct-series-a .ct-area,.ct-series-a .ct-slice-pie
@@ -142,14 +152,4 @@
     stroke: #FFE390;
 }
 
-
-.ct-bar.ct-label.ct-vertical.ct-start {
-  width: 100px; 
-  height: 50px;
-}
-
-.ct-bar.ct-label.ct-horizontal.ct-end {
-  width: 100px; 
-  height: 50px;
-}
 
