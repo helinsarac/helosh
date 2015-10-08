@@ -53,14 +53,23 @@
 
 
 
-/*graphs*/
+/*charts*/
 
-.ct-labels .ct-values
-{
-  font-size: 10px;
-  font-family: 'proxima-nova-alt', Helvetica, Arial, sans-serif
+.ct-label .ct-vertical .ct-start {
+  height: 26px;
+  width: 50px;
+  }
+
+.ct-label .ct-horizontal .ct-end {
+  width: 70px; 
+  height: 20px
 }
-/*1st*/
+
+.ct-label {
+   color: rgb(0,0,0);
+   font-size: 20px;
+}
+
 .ct-chart {
   margin-right: 200px;
   margin-left: 200px;
@@ -69,14 +78,49 @@
 
 }
 
-/*3rd*/
-/* Use this selector to override bar styles on bar charts. Bars are also strokes so you have maximum freedom in styling them. */
-.ct-series-a .ct-bar {
-  /* Colour of your bars */
-  stroke: red;
-  /* The width of your bars */
-  stroke-width: 20px;
-  
- 
+/*pie-chart colors*/
+.ct-series-a .ct-area,.ct-series-a .ct-slice-pie
+{
+  fill:#47D0BD
+}
+.ct-series-b .ct-area,.ct-series-b .ct-slice-pie
+{
+  fill:#DAEC8B
+}
+.ct-series-c .ct-area,.ct-series-c .ct-slice-pie
+{
+  fill:#FFFDD6
+}
+.ct-series-d .ct-area,.ct-series-d .ct-slice-pie
+{
+  fill:#FF5DA2
+}
+.ct-series-e .ct-area,.ct-series-e .ct-slice-pie
+{
+  fill:#9DD5CB
+}
+
+/*barchart*/
+
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: #FF5DA2;
+}
+
+.ct-bar {
+    
+    stroke-width: 20;
+    
+}
+
+
+
+.ct-label .ct-vertical .ct-start {
+  width: 100px; 
+  height: 50px;
+}
+
+.ct-label .ct-horizontal .ct-end {
+  width: 100px; 
+  height: 50px;
 }
 
