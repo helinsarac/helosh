@@ -53,13 +53,30 @@
 
 
 
-/*graph*/
+/*graphs*/
 
-
+.ct-labels .ct-values
+{
+  font-size: 10px;
+  font-family: 'proxima-nova-alt', Helvetica, Arial, sans-serif
+}
+/*1st*/
 .ct-chart {
   margin-right: 200px;
   margin-left: 200px;
   width: 1000px;
   height: 500px;
+
+}
+
+/*3rd*/
+/* Use this selector to override bar styles on bar charts. Bars are also strokes so you have maximum freedom in styling them. */
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: red;
+  /* The width of your bars */
+  stroke-width: 20px;
+  
+ 
 }
 
