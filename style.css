@@ -75,7 +75,12 @@
   margin-left: 200px;
   width: 1000px;
   height: 500px;
+}
 
+.ct-grid {
+    stroke: #ffffff;
+    stroke-width: 0px;
+    stroke-dasharray: 0px;
 }
 
 /*pie-chart colors*/
