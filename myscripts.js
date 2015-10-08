@@ -44,9 +44,9 @@ var responsiveOptions = [
 new Chartist.Pie('#chart2', data, options, responsiveOptions);
 /*3nd graph*/
 var data = {
-  labels: ['Myanmar', 'Cote d\'Ivoire','Thailand', 'Latvia', 'Dominican Republic', 'Russia', 'Syria', 'Iraq', 'Kuwait', 'Estonia', 'Saudi Arabia', 'Malaysia', 'Ukraine', 'Brunei Darussalam', 'Sweden', 'Kenya', 'Germany', 'Kyrgyzstan', 'Viet Nam', 'Poland'],
+  labels: ['Myanmar', 'Cote d\'Ivoire','Thailand', 'Latvia', 'Dominican Republic', 'Russia', 'Syria', 'Iraq', 'Kuwait', 'Estonia', 'Saudi Arabia', 'Malaysia', 'Ukraine', 'Brunei Darussalam', 'Sweden', 'Kenya'],
     series: [
-    [810000, 700000, 506197, 267789, 210000, 178000, 160000, 120000, 93000, 91281, 70000, 40000, 33271, 20524, 20450, 20000, 11709, 11425, 11000, 10825]
+    [810000, 700000, 506197, 267789, 210000, 178000, 160000, 120000, 93000, 91281, 70000, 40000, 33271, 20524, 20450, 20000]
   ]
 };
 
@@ -75,3 +75,4 @@ var responsiveOptions = [
 ];
 
 new Chartist.Bar('#chart3', data, options, responsiveOptions);
+

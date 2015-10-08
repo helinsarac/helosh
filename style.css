@@ -60,11 +60,20 @@
 
 
 /*charts*/
+.ct-label.ct-vertical.ct-start {
+color: rgb(0,0,0);
+font-size: 10px;
+}
+
+.ct-label.ct-horizontal.ct-end {
+color: rgb(0,0,0);
+font-size: 14px;
+}
 
 
 .ct-label {
    color: rgb(0,0,0);
-   font-size: 20px;
+   font-size: 22px;
 }
 
 .ct-chart {
@@ -81,6 +90,7 @@
 }
 
 
+/*
 .ct-chart.ct-label.ct-vertical.ct-start {
   width: 100px; 
   height: 50px;
@@ -91,6 +101,8 @@
   height: 50px;
   background-color: red;
 }
+*/
+
 
 
 /*pie-chart colors*/
